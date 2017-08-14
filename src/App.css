@@ -9,4 +9,9 @@
 .intro {
   font-size: large;
   margin: 0 auto;
+  padding: 50px;
+}
+
+.niceThing {
+  text-align: left;
 }
