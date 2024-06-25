@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import { jost } from '../app/ui/fonts';
+import NavBar from "./ui/navbar";
 
 export default function RootLayout({
     children,
@@ -8,7 +9,10 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body className={`${jost.className} antialiased`}>{children}</body>
+        <body className={`${jost.className} antialiased`}>
+          <NavBar />
+          {children}
+        </body>
       </html>
     )
   }
