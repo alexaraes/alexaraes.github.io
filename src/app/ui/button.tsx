@@ -6,7 +6,7 @@ interface ButtonProps {
 
 const NavButton = ({ title }: ButtonProps) => {
     return (
-        <Link href={`/${title}`} className="bg-lime-200 mx-3 px-2 border-2 border-black shadow-brutal">
+        <Link href={`/${title}`} className="text-center bg-lime-200 mx-3 px-1 border-2 border-black">
             {title}
         </Link>
     )
