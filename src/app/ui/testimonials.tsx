@@ -11,7 +11,7 @@ const testimonialList = {
     },
     "Ellen Edgington": {
         linkedin: "https://www.linkedin.com/in/ellen-edgington-psm-safe%C2%AE-5-certified-agilist-70a0495/",
-        body: "Over the years, I have worked on both small and large teams with Alexa in the airline and grocery industries, creating digital products that made a difference for both end users and the business. Some of my best memories of our projects have been working with Alexa. Alexa works especially well with UX/Product Design and Strategy. She gives great feedback on UX reviews and is thoughtful about her questions for designers. She actively dialogs with the Product Team to understand what is needed. She is unafraid to ask questions and work with her teammates until she gets what she is looking for. Alexa has stepped in when needed when the lead developer was out for an extended period of time. Even during tough times, she can bring humor, laughter and motivation to a team to reinvigorate the energy to push through a deadline. Alexa is the morale boost every team needs!"
+        body: "Over the years, I have worked on both small and large teams with Alexa. She works especially well with UX/Product Design and Strategy. She gives great feedback on UX reviews and is thoughtful about her questions for designers. She is unafraid to ask questions and work with her teammates until she gets what she is looking for. Alexa has stepped in when needed when the lead developer was out for an extended period of time. Even during tough times, she can bring humor, laughter and motivation to a team to reinvigorate the energy to push through a deadline. Alexa is the morale boost every team needs!"
     },
     "Trey Jones": {
         linkedin: "https://www.linkedin.com/in/kennethajones/",
@@ -25,7 +25,7 @@ const testimonialList = {
 
 const Testimonials = () => {
     return (
-        <div className="flex flex-col justify-center items-center bg-orange-100 md:flex-row md:justify-around md:flex-wrap">
+        <div className="flex flex-col justify-center items-stretch bg-violet-700 md:flex-row md:justify-around md:flex-wrap">
             {
                 Object.keys(testimonialList).map((key, index) => {
                     return (
