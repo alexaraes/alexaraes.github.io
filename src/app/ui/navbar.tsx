@@ -3,7 +3,7 @@ import NavButton from "./button";
 const NavBar = () => {
     return (
         <>
-            <div className="flex flex-row justify-between items-center border-b-2 border-black h-12 px-6">
+            <div className="flex flex-row justify-between items-center border-b-2 border-black h-12 px-6 bg-rose-300">
                 <div className="text-lg">
                     ARS
                 </div>

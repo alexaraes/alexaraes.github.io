@@ -4,7 +4,7 @@ interface ButtonProps {
 
 const NavButton = ({ title }: ButtonProps) => {
     return (
-        <button className="mx-3 px-2 border-2 border-black">
+        <button className="bg-lime-200 mx-3 px-2 border-2 border-black shadow-brutal">
             {title}
         </button>
     )

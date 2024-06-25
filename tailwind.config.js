@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'frame': "url('/black-blob.png')",
+      },
+      boxShadow: {
+        'brutal': "2px 2px 0 0 rgb(0, 0, 0, 1)",
+        'extraBrutal': "20px 0px 0 0 rgb(0, 0, 0, 1)",
+      }
+    },
   },
   plugins: [],
 }
