@@ -5,6 +5,9 @@ const Page = () => {
     return (
       <>
         <Hero />
+        <div className="bg-black font-medium text-center text-white text-xl">
+          You wanna hire me?
+        </div>
         <Testimonials />
       </>
     )
