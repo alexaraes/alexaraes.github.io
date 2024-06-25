@@ -8,7 +8,7 @@ module.exports = {
       },
       boxShadow: {
         'brutal': "3px 3px 0 0 rgb(0, 0, 0, 1)",
-        'extraBrutal': "20px 0px 0 0 rgb(0, 0, 0, 1)",
+        'extraBrutal': "8px 8px 0 0 rgb(0, 0, 0, 1)",
       }
     },
   },
