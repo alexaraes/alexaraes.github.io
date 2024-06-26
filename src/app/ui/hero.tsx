@@ -7,7 +7,7 @@ const Hero = () => {
                 <p className="font-medium md:text-4xl">The <span className="rounded-full px-2 bg-pink-500 text-white">✨personality hire✨</span> with skills.</p>
             </div>
             <div className="rounded-full border-4 border-black bg-pink-500 mt-10 w-4/6 md:w-2/6">
-                <img className="rounded-full" src="/cutesy-alexa-no-bg.png" />
+                <img className="rounded-full" src="cutesy-alexa-no-bg.png" />
             </div>
         </div>
     )
