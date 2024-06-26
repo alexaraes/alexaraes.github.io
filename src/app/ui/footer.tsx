@@ -6,7 +6,7 @@ import Github from "./github";
 const Footer = () => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center border-t-2 border-black h-36 px-6 bg-yellow-100 sticky top-full text-center md:text-left">
+            <div className="flex flex-col justify-center items-center border-t-2 border-black h-36 px-6 bg-orange-100 sticky top-full text-center md:text-left">
                 <p className="text-md">Wow, you made it all the way down here. That's nice of you.</p>
                 <div className="flex flex-row justify-around w-2/6 md:w-1/6 mt-4">
                     <a target="_blank" className="hover:rounded-full p-2 hover:bg-pink-500 hover:text-white" href="https://www.linkedin.com/in/alexaraes/">

@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    fontFamily: {
+      display: 'Climate\\ Crisis',
+    },
     extend: {
       backgroundImage: {
         'frame': "url('/black-blob.png')",

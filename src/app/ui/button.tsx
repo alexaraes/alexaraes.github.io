@@ -1,25 +1,18 @@
-"use client"
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
 interface ButtonProps {
     title: string;
+    link: string;
+    isActive?: boolean;
 }
 
-const NavButton = ({ title }: ButtonProps) => {
-    const pathname = usePathname();
-
+const NavButton = ({ title, link, isActive }: ButtonProps) => {
     return (
         <Link
-            href={`/${title}`}
-            className={clsx(
-                "text-center font-medium rounded-lg text-white hover:bg-yellow-300 hover:text-black m-3 md:mx-3 px-3 py-1 border-2 border-black shadow-brutal bg-violet-700",
-                {
-                    'bg-yellow-300 text-black': pathname === `/${title}`
-                }
-        )}>
+            href={link}
+            className={`text-center font-medium rounded-lg hover:bg-orange-400 m-3 md:mx-3 px-2 py-1 w-max border-2 border-black shadow-brutal ${isActive ? 'bg-orange-400' : 'bg-yellow-400'}`}
+        >
             {title}
         </Link>
     )

@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import { jost } from '../app/ui/fonts';
+import { jost, gabarito } from '../app/ui/fonts';
 import NavBar from "./ui/navbar";
 import Footer from "./ui/footer";
 
@@ -10,7 +10,7 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body className={`${jost.className} antialiased min-h-screen`}>
+        <body className={`${gabarito.className} antialiased min-h-screen`}>
           <NavBar />
           {children}
           <Footer />

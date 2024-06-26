@@ -25,7 +25,7 @@ const testimonialList = {
 
 const Testimonials = () => {
     return (
-        <div className="flex flex-col justify-center items-center md:items-stretch bg-violet-700 md:flex-row md:justify-around md:flex-wrap">
+        <div className="flex flex-col justify-center items-center md:items-stretch bg-yellow-400 md:flex-row md:justify-around md:flex-wrap">
             {
                 Object.keys(testimonialList).map((key, index) => {
                     return (
