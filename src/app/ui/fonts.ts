@@ -1,4 +1,4 @@
-import { Jost, Gabarito, Climate_Crisis } from 'next/font/google';
+import { Jost, Gabarito, Climate_Crisis, Public_Sans } from 'next/font/google';
 
 export const jost = Jost({
     subsets: ['latin'],
@@ -9,5 +9,9 @@ export const gabarito = Gabarito({
 });
 
 export const climateCrisis = Climate_Crisis({
+    subsets: ['latin'],
+});
+
+export const publicSans = Public_Sans({
     subsets: ['latin'],
 });
