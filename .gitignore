@@ -9,8 +9,8 @@
 # production
 /build
 
-# nextjs
-/.next
+# # nextjs
+# /.next
 
 # misc
 .DS_Store
