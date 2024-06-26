@@ -3,6 +3,7 @@
 import Link from "next/link";
 import NavButton from "./button";
 import { usePathname } from "next/navigation";
+import { anton } from "./fonts";
 
 const navLinks = [
     {
@@ -21,12 +22,12 @@ const navLinks = [
 
 const NavBar = () => {
     const pathname = usePathname();
-    console.warn(pathname);
+
     return (
         <>
             <div className="flex flex-row justify-between items-center border-b-4 border-black py-2 px-6 bg-lilac">
                 <div className="flex-1 text-white font-medium">
-                    <Link href="/" className="text-lg rounded-lg p-2 border-2 text-black border-black bg-yellow-400 hover:bg-redOrange">
+                    <Link href="/" className={`text-xl rounded-lg py-2 px-3 border-2 text-black border-black bg-yellow-400 hover:bg-redOrange ${anton.className}`}>
                         ARS
                     </Link>
                 </div>

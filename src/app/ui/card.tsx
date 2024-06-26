@@ -1,3 +1,5 @@
+import { anton } from "./fonts";
+
 interface CardProps {
     name: string;
     link: string;
@@ -11,7 +13,7 @@ const Card = ({ name, link, body }: CardProps) => {
                 <p className="mb-5 font-medium md:text-lg">
                     {body}
                 </p>
-                <p>- <a className="text-xl underline font-bold my-5 hover:bg-lilac" target="_blank" href={link}>{name}</a></p>
+                <p>- <a className={`text-2xl underline my-5 hover:bg-blueGreen ${anton.className}`} target="_blank" href={link}>{name}</a></p>
             </div>
         </>
     )

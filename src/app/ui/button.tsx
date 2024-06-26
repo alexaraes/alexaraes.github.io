@@ -1,5 +1,6 @@
 import Link from "next/link";
 import clsx from "clsx";
+import { anton } from "./fonts";
 
 interface ButtonProps {
     title: string;
@@ -11,7 +12,7 @@ const NavButton = ({ title, link, isActive }: ButtonProps) => {
     return (
         <Link
             href={link}
-            className={`text-center font-medium rounded-lg m-3 md:mx-3 px-2 py-1 w-max border-2 border-black shadow-brutal hover:bg-redOrange ${isActive ? 'bg-redOrange' : 'bg-yellow-400'}`}
+            className={`text-center font-medium rounded-lg m-3 md:mx-3 p-2 w-max border-2 border-black hover:bg-redOrange hover:shadow-brutal ${anton.className} ${isActive ? 'bg-redOrange shadow-brutal' : 'bg-yellow-400'}`}
         >
             {title}
         </Link>

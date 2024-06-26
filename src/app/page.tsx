@@ -5,7 +5,7 @@ const Page = () => {
     return (
       <>
         <Hero />
-        <div className="border-b-4 border-black h-9 font-medium text-center text-xl bg-lilac">
+        <div className="border-b-4 border-black h-9 font-medium text-center text-xl bg-blueGreen">
           You wanna hire me?
         </div>
         <Testimonials />
