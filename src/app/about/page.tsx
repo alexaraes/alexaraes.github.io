@@ -14,7 +14,7 @@ const yearsSince = (dateString: string) => {
 
 const Page = () => {
     return (
-      <div className="flex flex-col justify-start pt-10 items-center pb-10 h-screen bg-lilac">
+      <div className="page">
         <p className={`text-2xl mb-10 md:text-4xl lg:text-6xl font-bold ${anton.className}`}>About</p>
         <p className="text-center md:text-lg lg:text-2xl">I am a front end engineer with {yearsSince("2015-09-15")} years of professional development experience.</p>
       </div>
