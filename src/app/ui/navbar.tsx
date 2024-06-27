@@ -25,9 +25,9 @@ const NavBar = () => {
 
     return (
         <>
-            <div className="flex flex-row border-b-2 border-b-black justify-between items-center py-2 px-6 bg-lilac">
+            <div className="flex flex-row border-b-2 border-b-black justify-between items-center py-2 px-6">
                 <div className="flex-1 text-white font-medium">
-                    <Link href="/" className={`text-xl rounded-lg py-2 px-3 border-2 text-black border-black bg-yellow-400 hover:bg-redOrange ${anton.className}`}>
+                    <Link href="/" className={`text-xl rounded-lg py-2 px-3 border-2 text-black border-black hover:bg-lilac ${anton.className}`}>
                         ARS
                     </Link>
                 </div>

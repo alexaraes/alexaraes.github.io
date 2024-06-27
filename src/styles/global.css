@@ -4,6 +4,6 @@
 
 @layer components {
     .page {
-        @apply flex flex-col justify-start pt-10 items-center pb-10 h-screen bg-lilac;
+        @apply flex flex-col justify-start pt-10 items-center pb-10 h-screen;
     }
 }

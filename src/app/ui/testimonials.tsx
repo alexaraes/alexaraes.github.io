@@ -30,7 +30,7 @@ const testimonialList = [
 
 const Testimonials = () => {
     return (
-        <div className="flex flex-col justify-evenly items-center m-auto bg-lilac md:items-stretch md:flex-row md:justify-evenly md:flex-wrap">
+        <div className="flex flex-col justify-evenly items-center m-auto md:items-stretch md:flex-row md:justify-evenly md:flex-wrap">
             {
                 testimonialList.map((coworker, index) => {
                     return (

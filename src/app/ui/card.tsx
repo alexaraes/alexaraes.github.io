@@ -13,7 +13,7 @@ const Card = ({ name, link, body }: CardProps) => {
                 <p className="mb-5 font-medium md:text-lg">
                     {body}
                 </p>
-                <p>- <a className={`text-2xl underline my-5 hover:bg-yellow-400 ${anton.className}`} target="_blank" href={link}>{name}</a></p>
+                <p>- <a className={`text-2xl underline my-5 hover:bg-lilac ${anton.className}`} target="_blank" href={link}>{name}</a></p>
             </div>
         </>
     )
