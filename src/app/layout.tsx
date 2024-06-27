@@ -1,7 +1,13 @@
 import "../styles/global.css";
-import { jost, gabarito } from '../app/ui/fonts';
+import { gabarito } from '../app/ui/fonts';
 import NavBar from "./ui/navbar";
 import Footer from "./ui/footer";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Alexa Schreffler',
+  description: 'A website portfolio for Alexa Schreffler.',
+};
 
 export default function RootLayout({
     children,
